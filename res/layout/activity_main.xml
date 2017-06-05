@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shenhaichen.spiritlevelapp.MainActivity">
+
+    <com.example.shenhaichen.spiritlevelapp.SpiritView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:id="@+id/mySpiritView"
+        android:layout_centerInParent="true"
+        android:background="@color/yellow"
+        />
+
+    <TextView
+        android:id="@+id/degree_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/mySpiritView"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
